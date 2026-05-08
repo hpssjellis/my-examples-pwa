@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld</title>
+    
+    <!-- PWA ADDITION 1: Link to the manifest in the subfolder -->
+    <link rel="manifest" href="pwa/manifest.json">
+</head>
+<body>
+
+    <!-- PWA ADDITION 2: The dynamic Payment/Install button -->
+    <!-- It is hidden by default and managed by pwa.js -->
+    <button id="myAppBtn" onclick="myHandleAppAction()" style="position:fixed; top:10px; right:10px; z-index:1000; display:none;">Get Offline App ($6)</button>
+
+    <h1>HelloWorld</h1>
+
+    <!-- Your existing button logic -->
+    <button onclick="myGoodbye()">Click Me</button>
+
+    <script>
+        // Your original JavaScript logic
+        function myGoodbye() {
+            alert("Good bye");
+        }
+    </script>
+
+    <!-- PWA ADDITION 3: Load the PWA logic at the end of the body -->
+    <script src="pwa/pwa.js"></script>
+
+</body>
+</html>
