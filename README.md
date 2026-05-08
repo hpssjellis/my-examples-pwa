@@ -12,6 +12,6 @@ These links should go to the entry page for each WPA
 1. pwa01    [https://hpssjellis.github.io/my-examples-pwa/pwa01/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa01/index.html)
 1. pwa02    [https://hpssjellis.github.io/my-examples-pwa/pwa02/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa02/index.html)    
 1. pwa03    [https://hpssjellis.github.io/my-examples-pwa/pwa03/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa03/index.html)
-1. pwa04    [https://hpssjellis.github.io/my-examples-pwa/pwa03/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa04/index.html)
-1. pwa05    [https://hpssjellis.github.io/my-examples-pwa/pwa03/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa05/index.html) 
+1. pwa04    [https://hpssjellis.github.io/my-examples-pwa/pwa04/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa04/index.html)
+1. pwa05    [https://hpssjellis.github.io/my-examples-pwa/pwa05/index.html](https://hpssjellis.github.io/my-examples-pwa/pwa05/index.html) 
 
