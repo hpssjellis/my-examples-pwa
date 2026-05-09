@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webmcu-ai Demo</title>
+    
+    <!-- PWA Link -->
+    <link rel="manifest" href="pwa/manifest.json">
+
+    <style>
+        /* This keeps the button in the top right regardless of scroll */
+        #myAppBtn {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            z-index: 1000;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: sans-serif;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        #myAppBtn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The Permanent-yet-removable button -->
+    <button id="myAppBtn" onclick="myHandleAppAction()" style="display:none;">App ($6 USD) using Stripe</button>
+
+    <h1>HelloWorld</h1>
+    <p>Scroll down to see the button stay put.</p>
+
+    <!-- Simulating a complex/long page -->
+    <br><br><br><br><br><br><br><br><br>
+    <h2>Section 2: Sensor Data</h2>
+    <br><br><br><br><br><br><br><br><br>
+    <h2>Section 3: TinyML Training</h2>
+    <br><br><br><br><br><br><br><br><br>
+    <h2>Section 4: WebSerial Logs</h2>
+    <br><br><br><br><br><br><br><br><br>
+    
+    <button onclick="myGoodbye()">Standard Web Alert</button>
+
+    <script>
+        function myGoodbye() {
+            alert("Good bye");
+        }
+    </script>
+
+    <!-- Load the logic; it only computes what it needs, then goes dormant -->
+    <script src="pwa/pwa.js"></script>
+
+</body>
+</html>
